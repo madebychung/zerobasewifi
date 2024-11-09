@@ -1,0 +1,58 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* 테이블 스타일 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* 메뉴 스타일 */
+.menu {
+    margin: 20px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* 버튼 스타일 */
+button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* 입력 필드 스타일 */
+input[type="text"] {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+/* 메시지 스타일 */
+.center {
+    text-align: center;
+    margin: 20px 0;
+}
